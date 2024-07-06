@@ -1,9 +1,13 @@
+import { ThemeProvider } from "@emotion/react"
 import { AppRoutes } from "./routes"
+import { LightTheme } from "./shared/themes"
 function App() {
 
   return (
-    <>
-    <AppRoutes />
+    <> 
+    <ThemeProvider theme={LightTheme}>
+      <AppRoutes />
+    </ThemeProvider>
     </>
   )
 }
