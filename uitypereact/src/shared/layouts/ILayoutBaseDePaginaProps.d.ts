@@ -1,4 +1,6 @@
+import { ReactNode } from 'react';
 interface ILayoutBaseDePaginaProps {
-    titulo: string;
     children: React.ReactNode
+    titulo: string;
+    barraDeFerramentas?: ReactNode;
   }
