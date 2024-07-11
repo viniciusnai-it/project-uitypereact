@@ -1,6 +1,6 @@
 import { Box, Button, Icon, Paper, TextField, useTheme } from "@mui/material"
 
-export const BarraDeFerramentas: React.FC<IBarraDeFerramentasProps> = ({
+export const FerramentasDaListagem: React.FC<IFerramentasProps> = ({
     textoDaBusca = '',
     aoMudarTextoDeBusca,
     mostrarInputBusca = false,

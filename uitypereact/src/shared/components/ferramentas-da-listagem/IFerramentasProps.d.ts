@@ -1,4 +1,4 @@
-interface IBarraDeFerramentasProps {
+interface IFerramentasProps {
     textoDaBusca?: string;
     mostrarInputBusca?: boolean;
     aoMudarTextoDeBusca?: (novoTexto: string) => void;
